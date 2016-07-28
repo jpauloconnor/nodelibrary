@@ -1,0 +1,21 @@
+//EXPRESS
+//Helps us create web applications on node
+
+//Node package - code someone else has written
+//Express package helps with routing and templating
+
+//Using npm - install packages & publish packages
+
+//go to npmjs 
+//find express
+//read through loads of info about express
+//let's install
+
+
+//do npm init
+// go through all the defaults and enter info
+
+//do npm install express --save-dev
+
+//install nodemon globally  
+//
