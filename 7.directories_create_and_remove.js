@@ -21,7 +21,9 @@ var fs = require('fs');
 //Won't work. Can't remove without a dir
 //fs.rmdir('stuff');
 
-fs.unlink('./stuff/write.txt', function(){
-	fs.rmdir('stuff');
-});
+
+//Removes the dir with a file in it.
+// fs.unlink('./stuff/write.txt', function(){
+// 	fs.rmdir('stuff');
+// });
 
