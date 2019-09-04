@@ -1,25 +1,21 @@
 //normal function statement
-function sayHi(){
-	console.log('hi');
+const sayHello = () => {
+	console.log('hi')
 }
 
-sayHi();
+sayHello()
 
 //Anonymous function
-var sayBye = function(){
+var sayBye = function() {
 	console.log("Bye");
-};
-
-sayBye();
-
-
-//passing in a function to a paramter
-function callFunction(funcParam){
-	funcParam();
 }
 
+sayBye()
+
+//passing in a function to a paramter
+const call = (funcParam) => {
+	funcParam()
+}
 
 //Call the function and pass in a function parameter.
-callFunction(sayBye);
-
-
+call(sayBye)

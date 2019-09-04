@@ -13,6 +13,10 @@ setInterval(function(){
 }, 2000);
 
 
+const foo = () => {
+	
+}
+
 //Handy tools to know
  console.log(__dirname);
  console.log(__filename);

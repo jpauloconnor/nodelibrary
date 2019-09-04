@@ -2,8 +2,8 @@
 //READABLE STREAMS -- allow node to read data from a stream
 //DUPLEX --can read and write to a stream
 
-var http = require('http');
-var fs = require('fs');
+const http = require('http');
+const fs = require('fs');
 
 //var myReadStream = fs.createReadStream(__dirname + '/11.loremipsum.txt');																					
 var myReadStream = fs.createReadStream(__dirname + '/11.loremipsum.txt', 'utf8');
