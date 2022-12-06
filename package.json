@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/jpauloconnor/nodelibrary#readme",
   "devDependencies": {
-    "express": "^4.14.0"
+    "express": "^4.17.3"
   },
   "dependencies": {
     "ejs": "^2.5.1"
